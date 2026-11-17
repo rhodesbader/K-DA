@@ -1,0 +1,61 @@
+{
+  "_comment": "Valeurs par défaut du moteur reelkit. Un profil de style (style.json) les surcharge via editing_rules.",
+  "analysis": {
+    "scene_threshold": 0.3,
+    "min_shot_gap_s": 0.25,
+    "max_keyframes": 24,
+    "keyframe_long_side_px": 720,
+    "contact_sheet_columns": 4,
+    "silence_noise_db": -35,
+    "silence_min_s": 0.4,
+    "text_overlay_word_threshold": 15
+  },
+  "transcription": {
+    "engine": "faster-whisper",
+    "model": "small",
+    "compute_type": "int8",
+    "vad_filter": true
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 18,
+    "preset": "medium",
+    "audio_bitrate": "192k",
+    "loudness_target_lufs": -14,
+    "true_peak_dbtp": -1.5
+  },
+  "editing": {
+    "target_duration_s": 30,
+    "shot_median_s": 2.0,
+    "shot_min_s": 0.8,
+    "shot_max_s": 4.0,
+    "first_shot_max_s": 1.5,
+    "words_per_minute": 160,
+    "words_per_caption": 3,
+    "image_motion": "zoom_in"
+  },
+  "captions": {
+    "font": "Inter",
+    "size": 78,
+    "primary_color": "#FFFFFF",
+    "highlight_color": "#FFE600",
+    "outline_color": "#000000",
+    "outline": 6,
+    "position": "lower-third",
+    "uppercase": false,
+    "bold": true,
+    "margin_v": 520
+  },
+  "audio_mix": {
+    "original_audio_gain_db": 0,
+    "voiceover_gain_db": 0,
+    "music_gain_db": -16,
+    "duck_music_under_voice": true
+  },
+  "verify": {
+    "duration_tolerance_s": 0.25,
+    "loudness_tolerance_lu": 2.0
+  }
+}

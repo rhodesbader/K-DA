@@ -1,0 +1,54 @@
+{
+  "schema": "reelkit.decode/1",
+  "reel_id": "",
+  "filled": false,
+  "_rules": "Remplir uniquement à partir des frames lues et de la transcription. Valeur inconnue/invisible/inaudible = null. Chaque élément cite ses preuves (frames/frame_00X.jpg ou timecode de transcription). 'observed' = vu/entendu ; 'inferred' = déduit.",
+  "hook": {
+    "type": null,
+    "visual": null,
+    "spoken_or_text": null,
+    "emotion": null,
+    "evidence": [],
+    "certainty": null
+  },
+  "sections": [
+    {
+      "name": null,
+      "start": null,
+      "end": null,
+      "visual": null,
+      "spoken": null,
+      "on_screen_text": null,
+      "caption_style": null,
+      "mechanic": null,
+      "evidence": []
+    }
+  ],
+  "on_screen_text": [
+    {"time": null, "text": null, "evidence": null}
+  ],
+  "captions": {
+    "present": null,
+    "position": null,
+    "case": null,
+    "font_family_guess": null,
+    "weight": null,
+    "colors": [],
+    "highlight_color": null,
+    "words_per_caption": null,
+    "animation": null
+  },
+  "framing": {
+    "dominant_shot": null,
+    "subject_position": null,
+    "camera_motion": null,
+    "b_roll_share": null
+  },
+  "transitions": [],
+  "effects": [],
+  "color_grade": null,
+  "music": {"present": null, "style": null, "notes": null},
+  "cta": {"present": null, "type": null, "text": null, "time": null},
+  "why_it_works": [],
+  "open_questions": []
+}
