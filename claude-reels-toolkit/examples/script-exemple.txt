@@ -1,0 +1,6 @@
+Arrête de monter tes Reels à la main.
+Voici la méthode que j'utilise pour sortir une vidéo en dix minutes.
+Un : je décode trois vidéos qui marchent.
+Deux : j'en tire un profil de montage.
+Trois : je laisse FFmpeg couper, recadrer et sous-titrer.
+Enregistre cette vidéo pour l'essayer ce soir.

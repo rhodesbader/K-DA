@@ -1,0 +1,5 @@
+reels-workspace/
+.venv-reelkit/
+__pycache__/
+*.pyc
+.env

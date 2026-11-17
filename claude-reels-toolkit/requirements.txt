@@ -1,0 +1,10 @@
+# Claude Reels Toolkit — dépendances Python OPTIONNELLES.
+# Le cœur (analyse, profil, timeline, rendu, vérification) n'a besoin que de Python >= 3.9 et FFmpeg.
+# Versions testées (Python 3.13, Linux). Mettre à jour : voir MAINTENANCE.md.
+
+# Téléchargement depuis une URL (Instagram, TikTok, Shorts...) — licence Unlicense
+yt-dlp==2026.8.19
+
+# Transcription locale (CPU, pas de PyTorch, ~100 Mo de dépendances) — licence MIT
+# Le modèle (tiny 75 Mo … small 480 Mo … large-v3 3 Go) est téléchargé depuis huggingface.co au 1er usage.
+faster-whisper==1.2.1

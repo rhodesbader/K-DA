@@ -1,0 +1,64 @@
+{
+  "file": "/tmp/claude-0/-home-user-K-DA/f79fb802-89cc-5e83-bd1d-45202ac0ef6f/scratchpad/st_full/workspace/projects/selftest/render.mp4",
+  "ok": true,
+  "duration_s": 9.3,
+  "checks": [
+    {
+      "name": "codec vidéo h264",
+      "ok": true,
+      "expected": "h264",
+      "actual": "h264"
+    },
+    {
+      "name": "pixel format yuv420p",
+      "ok": true,
+      "expected": "yuv420p",
+      "actual": "yuv420p"
+    },
+    {
+      "name": "piste audio aac",
+      "ok": true,
+      "expected": "aac",
+      "actual": "aac"
+    },
+    {
+      "name": "résolution",
+      "ok": true,
+      "expected": "1080x1920",
+      "actual": "1080x1920"
+    },
+    {
+      "name": "cadence",
+      "ok": true,
+      "expected": 30,
+      "actual": 30.0
+    },
+    {
+      "name": "durée",
+      "ok": true,
+      "expected": 9.3,
+      "actual": 9.3
+    },
+    {
+      "name": "loudness intégrée",
+      "ok": true,
+      "expected": "-14 ±2.0 LUFS",
+      "actual": -14.0
+    },
+    {
+      "name": "true peak <= -1 dBTP",
+      "ok": true,
+      "expected": "<= -1.0 dBTP",
+      "actual": -12.0
+    },
+    {
+      "name": "pas de longue séquence noire",
+      "ok": true,
+      "expected": "< 20 % de noir",
+      "actual": 0
+    }
+  ],
+  "checked_at": "2026-11-17T12:11:24+00:00",
+  "timeline": "timeline.json",
+  "draft": false
+}

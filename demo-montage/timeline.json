@@ -1,0 +1,136 @@
+{
+  "schema": "reelkit.timeline/1",
+  "tool_version": "1.0.0",
+  "generated_at": "2026-11-17T12:11:05+00:00",
+  "style": "selftest",
+  "rules_used": {
+    "target_duration_s": 8.25,
+    "shot_median_s": 1.85,
+    "shot_min_s": 1.1,
+    "shot_max_s": 2.45,
+    "first_shot_max_s": 1.1,
+    "words_per_minute": 160,
+    "words_per_caption": 3,
+    "image_motion": "zoom_in",
+    "captions": {
+      "font": "Inter",
+      "size": 78,
+      "primary_color": "#FFFFFF",
+      "highlight_color": "#FFE600",
+      "outline_color": "#000000",
+      "outline": 6,
+      "position": "lower-third",
+      "uppercase": false,
+      "bold": true,
+      "margin_v": 520,
+      "enabled": true
+    },
+    "origin": {
+      "target_duration_s": "médiane des vidéos",
+      "shot_median_s": "médiane des plans",
+      "shot_min_s": "médiane des plans les plus courts",
+      "shot_max_s": "médiane des plans les plus longs",
+      "first_shot_max_s": "médiane de la 1re coupe",
+      "words_per_minute": "défaut",
+      "words_per_caption": "défaut",
+      "image_motion": "défaut",
+      "captions": "traits récurrents si présents, sinon défauts"
+    }
+  },
+  "output": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "crf": 18,
+    "preset": "medium",
+    "audio_bitrate": "192k",
+    "loudness_target_lufs": -14,
+    "true_peak_dbtp": -1.5,
+    "duration_s": 9.3,
+    "file": "render.mp4"
+  },
+  "segments": [
+    {
+      "index": 1,
+      "media": "/tmp/claude-0/-home-user-K-DA/f79fb802-89cc-5e83-bd1d-45202ac0ef6f/scratchpad/st_full/media/clip_1.mp4",
+      "kind": "video",
+      "start": 0.0,
+      "duration": 1.1,
+      "fit": "cover",
+      "in": 0.0,
+      "keep_audio": false
+    },
+    {
+      "index": 2,
+      "media": "/tmp/claude-0/-home-user-K-DA/f79fb802-89cc-5e83-bd1d-45202ac0ef6f/scratchpad/st_full/media/clip_2.mp4",
+      "kind": "video",
+      "start": 1.1,
+      "duration": 1.48,
+      "fit": "cover",
+      "in": 0.0,
+      "keep_audio": false
+    },
+    {
+      "index": 3,
+      "media": "/tmp/claude-0/-home-user-K-DA/f79fb802-89cc-5e83-bd1d-45202ac0ef6f/scratchpad/st_full/media/clip_3.mp4",
+      "kind": "video",
+      "start": 2.58,
+      "duration": 2.22,
+      "fit": "cover",
+      "in": 0.0,
+      "keep_audio": false
+    },
+    {
+      "index": 4,
+      "media": "/tmp/claude-0/-home-user-K-DA/f79fb802-89cc-5e83-bd1d-45202ac0ef6f/scratchpad/st_full/media/still.png",
+      "kind": "image",
+      "start": 4.8,
+      "duration": 1.665,
+      "fit": "cover",
+      "in": 0.0,
+      "motion": "zoom_in"
+    },
+    {
+      "index": 5,
+      "media": "/tmp/claude-0/-home-user-K-DA/f79fb802-89cc-5e83-bd1d-45202ac0ef6f/scratchpad/st_full/media/clip_1.mp4",
+      "kind": "video",
+      "start": 6.465,
+      "duration": 2.835,
+      "fit": "cover",
+      "in": 1.1,
+      "keep_audio": false
+    }
+  ],
+  "audio": {
+    "voiceover": "/tmp/claude-0/-home-user-K-DA/f79fb802-89cc-5e83-bd1d-45202ac0ef6f/scratchpad/st_full/media/voiceover.wav",
+    "music": "/tmp/claude-0/-home-user-K-DA/f79fb802-89cc-5e83-bd1d-45202ac0ef6f/scratchpad/st_full/media/music.wav",
+    "original_audio": false,
+    "original_audio_gain_db": 0,
+    "voiceover_gain_db": 0,
+    "music_gain_db": -16,
+    "duck_music_under_voice": true
+  },
+  "captions": {
+    "srt": "captions.srt",
+    "ass": "captions.ass",
+    "source": "script réparti proportionnellement (timing approximatif)",
+    "count": 5,
+    "style": {
+      "font": "Inter",
+      "size": 78,
+      "primary_color": "#FFFFFF",
+      "highlight_color": "#FFE600",
+      "outline_color": "#000000",
+      "outline": 6,
+      "position": "lower-third",
+      "uppercase": false,
+      "bold": true,
+      "margin_v": 520,
+      "enabled": true
+    }
+  },
+  "manual_steps": [
+    "Vérifiez que vous détenez les droits de la musique pour une diffusion publique.",
+    "Relisez timeline.json : chaque plan (média, point d'entrée, durée) est modifiable à la main avant `render`."
+  ]
+}

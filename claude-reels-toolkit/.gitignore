@@ -1,0 +1,16 @@
+# Secrets et configuration locale
+.env
+*.cookies.txt
+cookies.txt
+
+# Données de travail (médias, analyses, rendus : potentiellement privés ou soumis au droit d'auteur)
+reels-workspace/
+reports/*
+!reports/README.md
+
+# Environnements et caches
+.venv-reelkit/
+.venv/
+__pycache__/
+*.pyc
+dist/
